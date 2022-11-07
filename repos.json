@@ -8,7 +8,6 @@
       , "commit": "c592c7e83613647db2256ac5351e63d09e2d7858"
       , "subdir": "rules"
       }
-    , "target_root": "tutorial-defaults"
     , "rule_root": "just-rules"
     }
   , "fmtlib":
