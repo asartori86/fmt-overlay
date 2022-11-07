@@ -1,0 +1,26 @@
+{ "main": "fmtlib"
+, "repositories":
+  { "just-rules":
+    { "repository":
+      { "type": "git"
+      , "repository": "https://github.com/just-buildsystem/justbuild"
+      , "branch": "master"
+      , "commit": "c592c7e83613647db2256ac5351e63d09e2d7858"
+      , "subdir": "rules"
+      }
+    , "target_root": "tutorial-defaults"
+    , "rule_root": "just-rules"
+    }
+  , "fmtlib":
+    { "repository":
+      { "type": "git"
+      , "branch": "8.1.1"
+      , "commit": "b6f4ceaed0a0a24ccf575fab6c56dd50ccf6f1a9"
+      , "repository": "https://github.com/fmtlib/fmt.git"
+      }
+    , "target_root": "fmt-layer"
+    , "bindings": {"rules": "just-rules"}
+    }
+  , "fmt-layer": {"repository": {"type": "file", "path": "."}}
+  }
+}
