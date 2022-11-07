@@ -1,0 +1,6 @@
+{ "fmt":
+  { "type": "export"
+  , "target": ["src", "fmt"]
+  , "flexible_config": ["CXX", "CXXFLAGS", "ADD_CXXFLAGS", "AR", "ENV"]
+  }
+}

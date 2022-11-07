@@ -1,0 +1,7 @@
+{ "fmt":
+  { "type": ["@", "rules", "CC", "library"]
+  , "name": ["fmt"]
+  , "hdrs": [["include/fmt", "hdrs"]]
+  , "srcs": ["format.cc", "os.cc"]
+  }
+}
